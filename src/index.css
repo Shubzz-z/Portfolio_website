@@ -11,7 +11,33 @@
     font-family: 'Raleway', sans-serif;
   }
 }
-
-.demo{
-  border:2px solid red;
+p{
+  text-align: justify;
+}
+.maximp{
+  width: 700px;
+}
+@media (min-width: 768px) {
+  
+}
+@media (min-width: 640px) AND (max-width: 768px) {
+  .maximp{
+    width: 26rem/* 416px */;
+  }
+  .pimp{
+    padding-top: 40px;
+  }
+}
+@media (min-width: 400px) AND (max-width: 640px) {
+  .maximp{
+      width: 24rem/* 384px */;
+  }
+  .pimp{
+    padding-top: 40px;
+  }
+}
+@media (max-width: 400px){
+  .maximp{
+      width: 20rem/* 320px */;
+  }
 }
