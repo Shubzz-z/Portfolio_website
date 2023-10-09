@@ -14,18 +14,6 @@ const Projects = () => {
             id:3,
             src:'https://source.unsplash.com/500x300/?nature,project'
         },
-        {
-            id:4,
-            src:'https://source.unsplash.com/500x300/?code,html'
-        },
-        {
-            id:5,
-            src:'https://source.unsplash.com/500x300/?elon,mask'
-        },
-        {
-            id:6,
-            src:'https://source.unsplash.com/500x300/?time,pass'
-        },
     ]
     return (
         <div name='projects' className='bg-gradient-to-b from-black to-gray-800 w-full text-white'>
