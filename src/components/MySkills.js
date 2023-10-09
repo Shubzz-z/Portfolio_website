@@ -35,24 +35,30 @@ const MySkills = () => {
         {
             id:6,
             src:'https://source.unsplash.com/500x400/?nature,men',
-            title:'next js',
+            title:'SQL',
             style:'shadow-white',
         },
         {
             id:7,
             src:'https://source.unsplash.com/500x400/?nature,women',
-            title:'SQL',
+            title:'GitHub',
             style:'shadow-blue-800',
         },
         {
             id:8,
             src:'https://source.unsplash.com/500x400/?baby,boy',
-            title:'GitHub',
+            title:'C++',
             style:'shadow-gray-400',
         },
+        {
+            id:9,
+            src:'https://source.unsplash.com/500x400/?baby,boy',
+            title:'Java',
+            style:'shadow-orange-500',
+        },
     ]
-  return (
-    <div name='myskills' className=' bg-gradient-to-b from-gray-800 to-black w-full'>
+    return (
+        <div name='myskills' className=' bg-gradient-to-b from-gray-800 to-black w-full'>
         <div className=" max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full text-white mt-14">
             <div className="">
                 <p className=' text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>My Skills</p>

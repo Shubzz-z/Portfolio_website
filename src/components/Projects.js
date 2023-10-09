@@ -4,15 +4,21 @@ const Projects = () => {
     const projects=[
         {
             id:1,
-            src:'https://source.unsplash.com/500x300/?nature,water'
+            isrc:'https://source.unsplash.com/500x300/?nature,water',
+            dsrc:'https://weather-app100.netlify.app/',
+            csrc:'https://github.com/Shubzz-z/weatherapp'
         },
         {
             id:2,
-            src:'https://source.unsplash.com/500x300/?water,nature'
+            isrc:'/project_image/project2.png',
+            dsrc:'https://shubham-more-portfolio.netlify.app/',
+            csrc:'https://github.com/Shubzz-z/portfolio_website'
         },
         {
             id:3,
-            src:'https://source.unsplash.com/500x300/?nature,project'
+            isrc:'https://source.unsplash.com/500x300/?nature,project',
+            dsrc:'https://google.com',
+            csrc:'https://gmail.com'
         },
     ]
     return (
@@ -23,12 +29,12 @@ const Projects = () => {
                     <p className='py-6'>Check out some of my work right here</p>
                 </div>
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-0 sm:px-0">
-                    {projects.map(({id,src})=>(
+                    {projects.map(({id,isrc,dsrc,csrc})=>(
                         <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-                            <img src={src} alt="" className=' rounded-md duration-200 hover:scale-105'/>
+                            <img src={isrc} alt="" className=' rounded-md duration-200 hover:scale-105'/>
                             <div className='flex items-center justify-center'>
-                                <button className=' w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-                                <button className=' w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                                <button className=' w-1/2 m-4 duration-200 hover:scale-105'><a href={dsrc} className='px-6 py-3 block' target='_bank'>Demo</a></button>
+                                <button className=' w-1/2 m-4 duration-200 hover:scale-105'><a href={csrc} className='px-6 py-3 block' target='_bank'>Code</a></button>
                             </div>
                         </div>
                     ))}
