@@ -11,12 +11,13 @@ const Contact = () => {
             </div>
             <div className='flex justify-center items-center'>
                 <form action="https://getform.io/f/cf531197-118a-4d3e-9e00-817a8e615d61" method='POST' className='flex flex-col w-full md:w-1/2'>
-                    <input type="text" name='name' placeholder='Enter your name' className=' p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'/>
-                    <input type="email" name='name' placeholder='Enter your email' className='my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'/>
-                    <textarea name="message" placeholder='Enter your message' rows="10" className=' p-2 bg-transparent border-2 rounded-md text-white focus:outline-none'></textarea>
+                    <input type="text" name='name' placeholder='Enter your name' className=' p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' required/>
+                    <input type="email" name='name' placeholder='Enter your email' pattern="[^ @]*@[^ @]*" className='my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' required/>
+                    <textarea name="message" placeholder='Enter your message' rows="10" className=' p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' required></textarea>
                     <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'>Let's Talk</button>
                 </form>
             </div>
+
         </div>
     </div>
   )

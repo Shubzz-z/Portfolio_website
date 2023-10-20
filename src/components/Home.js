@@ -9,9 +9,9 @@ const Home = () => {
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row pimp'>
             <div className='flex flex-col'>
                 <h2 className='text-4xl sm:text-5xl md:text-7xl font-bold text-white'>I am Front-End Developer</h2>
-                <p className='text-gray-500 py-4 max-w-md'>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 150.
-                </p>
+                <p className='text-gray-200 py-4 max-w-md' >
+                Hi , I am <b>Shubham More</b> 
+                 </p>
                 <div>
                 <a href='/resume/Shubham_Resume.pdf' download target='_blank' className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
                     Download CV

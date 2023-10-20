@@ -4,7 +4,7 @@ const Projects = () => {
     const projects=[
         {
             id:1,
-            isrc:'https://source.unsplash.com/500x300/?nature,water',
+            isrc:'/project_image/project1.png',
             dsrc:'https://weather-app100.netlify.app/',
             csrc:'https://github.com/Shubzz-z/weatherapp'
         },
@@ -16,19 +16,19 @@ const Projects = () => {
         },
         {
             id:3,
-            isrc:'https://source.unsplash.com/500x300/?nature,project',
-            dsrc:'https://google.com',
-            csrc:'https://gmail.com'
+            isrc:'/project_image/project3.png',
+            dsrc:'',
+            csrc:''
         },
     ]
     return (
         <div name='projects' className='bg-gradient-to-b from-black to-gray-800 w-full text-white'>
-            <div className=" max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
+            <div className=" max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full mb-10">
                 <div className="pb-8">
                     <p className=' text-4xl font-bold inline border-b-4 border-gray-500'>Projects</p>
                     <p className='py-6'>Check out some of my work right here</p>
                 </div>
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-0 sm:px-0">
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-0 sm:px-0 mt-20 mb-20">
                     {projects.map(({id,isrc,dsrc,csrc})=>(
                         <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                             <img src={isrc} alt="" className=' rounded-md duration-200 hover:scale-105'/>

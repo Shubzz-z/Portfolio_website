@@ -1,5 +1,14 @@
 import React from 'react'
 import htmli from "../assets/htmli.png"
+import css from "../assets/css.png"
+import js from "../assets/js.png"
+import react from "../assets/react.png"
+import tailwind from "../assets/tailwind.png"
+import sql from "../assets/sql.png"
+import java from "../assets/java.png"
+import cpp from "../assets/cpp.png"
+import github from "../assets/github.png"
+
 const MySkills = () => {
     const myskills=[
         {
@@ -10,49 +19,49 @@ const MySkills = () => {
         },
         {
             id:2,
-            src:'https://source.unsplash.com/500x400/?nature,code',
+            src: css,
             title:'CSS',
             style:'shadow-blue-500',
         },
         {
             id:3,
-            src:'https://source.unsplash.com/500x400/?nature,animals',
+            src:js,
             title:'JavaScript',
             style:'shadow-yellow-500',
         },
         {
             id:4,
-            src:'https://source.unsplash.com/500x400/?nature,tiger',
+            src: react,
             title:'React',
             style:'shadow-blue-600',
         },
         {
             id:5,
-            src:'https://source.unsplash.com/500x400/?nature,fish',
+            src:tailwind,
             title:'tailwind',
             style:'shadow-sky-400',
         },
         {
             id:6,
-            src:'https://source.unsplash.com/500x400/?nature,men',
+            src:sql,
             title:'SQL',
             style:'shadow-white',
         },
         {
             id:7,
-            src:'https://source.unsplash.com/500x400/?nature,women',
+            src:github,
             title:'GitHub',
             style:'shadow-blue-800',
         },
         {
             id:8,
-            src:'https://source.unsplash.com/500x400/?baby,boy',
+            src:cpp,
             title:'C++',
             style:'shadow-gray-400',
         },
         {
             id:9,
-            src:'https://source.unsplash.com/500x400/?baby,boy',
+            src:java,
             title:'Java',
             style:'shadow-orange-500',
         },
