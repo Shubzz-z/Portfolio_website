@@ -17,8 +17,8 @@ const Projects = () => {
         {
             id:3,
             isrc:'/project_image/project3.png',
-            dsrc:'',
-            csrc:''
+            dsrc:'https://datascience100.netlify.app/',
+            csrc:'https://github.com/Padmavati39/datascience'
         },
     ]
     return (
