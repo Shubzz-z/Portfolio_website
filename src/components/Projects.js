@@ -5,8 +5,8 @@ const Projects = () => {
         {
             id:1,
             isrc:'/project_image/project1.png',
-            dsrc:'https://weather-app100.netlify.app/',
-            csrc:'https://github.com/Shubzz-z/weatherapp'
+            dsrc:'https://shubzzz-weather-app.netlify.app/',
+            csrc:'https://github.com/Shubzz-z/weather-App'
         },
         {
             id:2,
