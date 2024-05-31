@@ -11,8 +11,8 @@ const Projects = () => {
         {
             id:2,
             isrc:'/project_image/project2.png',
-            dsrc:'https://shubham-more-portfolio.netlify.app/',
-            csrc:'https://github.com/Shubzz-z/portfolio_website'
+            dsrc:'https://learngraph.vercel.app/',
+            csrc:'https://github.com/Shubzz-z/Learnograph'
         },
         {
             id:3,
